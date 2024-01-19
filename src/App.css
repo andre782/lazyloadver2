@@ -1,0 +1,365 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  .conten-search{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid hsl(44, 100%, 60%);
+  }
+  .search-container button{
+    height: 30px;
+    border-radius: 10px;
+    background-color: hsl(44, 100%, 60%);
+    color: white;
+    border: none;
+  }
+.container_utama{
+    background-color:	#edebdd;
+    height: auto;
+    
+}
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Sesuaikan dengan kebutuhan Anda */
+    background-color: hsl(115, 31%, 21%);
+    color: white;
+    height: 50px;
+}
+.navbar h1{
+    margin-right: 20px;
+}
+.navbar h4{
+    margin-left: 20px;
+}
+.jarak{
+    display: flex;
+    gap: 10px;
+}
+  
+  .logo {
+    width: 50px; /* Atur ukuran logo sesuai kebutuhan Anda */
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+  /* konten di bawah navbar */
+  .container_xxl{
+    width: 100%;
+    max-width: 900px; /* Optional: Batas lebar maksimum */
+    margin: 0 auto;
+  }
+  .header1{
+    container: 900px;
+    background-color: #d5d3cb;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+  }
+  .fnt-size{
+    font-size: 16px;
+  }
+  .version{
+    font-size: 32px;
+    font-weight: bold;
+   margin-top: 10px;
+  }
+  .versionkntn{
+    font-size: 32px;
+    font-weight: bold;
+   margin-top: 10px;
+  }
+  .version_angka{
+    color: gray;
+  }
+  .btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin-top: 5px;
+  }
+  .btn button {
+    margin: 5px;
+    width: 120px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+   background-color: #ddd6ab;
+   font-weight: bold;
+  }
+  .btn button:hover {
+   background-color: #cfc487;
+
+  }
+  /* header 2 */
+  .tulisan_header2{
+    font-size: 18px;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .tulisan_header2 p {
+    margin: 5px 0; /* Mengatur margin atas dan bawah agar tulisan berdekatan */
+  }
+  
+  hr {
+    margin: 5px 0; /* Mengatur margin atas dan bawah agar hr berdekatan dengan tulisan */
+  }
+  
+  /* konten */
+.konten-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.bagian1 {
+  flex: 0 0 70%;
+  width: auto;
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+}
+.bagian2 {
+  flex: 0 0 30%;
+}
+
+.cargo_html{
+  background-color: #F6F8FA;
+  height: auto;
+  font-size: 15px;
+ 
+}
+.isikontenke2{
+  height: 70px;
+  background-color: #F6F8FA;
+  padding: 10px 20px 10px 10px;
+  border-radius: 10px;
+}
+.isikontenke2 p{
+  color: blue;
+  font-weight: bold;
+}
+.isikontenke2 p .bold-text {
+  font-weight: bold;
+}
+.isikontenke3{
+  height: auto;
+  background-color: #F6F8FA;
+  padding: 10px 20px 10px 30px;
+  border-radius: 10px;
+}
+.kontenterakhri{
+  font-size: 16px;
+}
+.btnx button{
+ display: none;
+}
+.kata1{
+  display: flex;
+  margin-top: -20px;
+
+}
+.kata2{
+  display: flex;
+  margin-top: -20px;
+}.kata3{
+  display: flex;
+  margin-top: -20px;
+
+}
+.calender{
+  margin-top: 17px;
+  margin-right: 10px;
+}
+.btn-cargo{
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #edebdd;
+}
+.btn-cargo:hover{
+  background-color: white;
+}
+.konten3{
+  margin-top: 10px;
+}
+.Cube{
+  margin-right: 10px;
+}
+.kontendua{
+  display: flex;
+}
+
+.kontentiga img{
+  width: 40px;
+  border-radius: 50%;
+}
+.imgkonten{
+  margin-top: -10px;
+}
+.kontentwo{
+  margin-top: -5px;
+
+}
+.button_bawah button{
+  margin-top: 10px;
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.btn-last{
+  background-color: hsl(44, 100%, 60%);
+}
+.btn-last:hover{
+  background-color: orange;
+}
+
+.konten-container {
+  border-bottom: 3px solid #000; 
+}
+
+.bagian1{
+  margin-bottom: 40px;
+}
+
+
+/* konten 2 */
+.konten2-container {
+  display: flex;
+  padding-bottom: 10px;
+
+}
+.konten2-left,
+.konten2-right {
+  flex: 1;
+}
+.konten2-left{
+  padding: 10px 30px 10px 30px;
+  border-left: 0.5px solid gray; 
+}
+.konten2-right{
+  padding: 10px 30px 10px 30px;
+  border-left: 0.5px solid gray; 
+}
+.stat{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+/* konten 3 */
+/* .naikturunbar{
+  border: 1px solid black;
+  width: 920px;
+} */
+.footer{
+  height: 200px;
+  text-align: center;
+  background-color: hsl(115, 31%, 21%);
+}
+.footer p{
+  padding-top: 100px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .navbar{
+    display: block;
+  } */
+
+  .navbar h1{
+    font-size: 20px;
+    /* margin-left: -140px; */
+  }
+  .logo{
+    width: 30px;
+  }
+  .jarak{
+    display: none;
+  }
+ 
+   .conten-search {
+    width: 82%;
+    height: 20px;
+  }
+  .navbar button{
+    height: 25px;
+  }
+
+  /* konten 1 */
+  .blck{
+    display: block;
+  }
+ 
+ .btn button {
+  display: none;
+ }
+ .header1{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+  border: 10px;
+ }
+ .btnx{
+  margin-top: -20px;
+ }
+ .btnx button{
+  display: block;
+  margin-top: 100px;
+  margin: 5px;
+  width: 120px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ddd6ab;
+  font-weight: bold;
+}
+/* header 2 */
+.tulisan_header2{
+  display: block;
+  padding-left: 20px;
+}
+.tulisan_header2 p{
+  margin-top: 10px;
+}
+.konten-container {
+  display: block;
+}
+.bagian1{
+  margin-left: -10px;
+}
+.bagian2{
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.cd{
+  margin-left: -10px;
+}
+.button_bawah{
+  margin-top: 5px;
+}
+
+/* konten3 */
+  .stat{
+    margin-left: 10px;
+  }
+.konten2-container {
+  display: block;
+  margin-left: 15px;
+}
+.naikturunbar img{
+  width: 100%;
+}
+
+
+}
