@@ -1,78 +1,86 @@
-// konten.jsx
-
-import React from "react";
-import vercre from "../assets/lver.svg";
-import docpass from "../assets/openssl-probe.svg";
+import React from 'react'
 import { SlCalender } from "react-icons/sl";
 import { FaCubes } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import Owner from "../assets/owner.jpeg";
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+import  { SkeletonTheme } from 'react-loading-skeleton';
 
-const Konten = () => {
+const SkeletonLoad = () => {
   return (
     <div className="konten-container">
-      <div className="bagian1">
+        <div className="bagian1">
         <p className="versionkntn">
-          openssl-probe <span className="version_angka">v0.1.5</span>
-          <br />
-          <p className="fnt-size">
-            Tool for helping to find SSL certificate locations on the system for
-            OpenSSL
+        <SkeletonTheme baseColor="#D3D3D3" highlightColor="#f5f5f5">
+            <Skeleton width={200}/>
+        </SkeletonTheme>
+        <br />
+          <p className="fnt-size" style={{marginTop: '-10px'}}>
+          <Skeleton/>
+          <Skeleton/>
+          </p>
+          <br />    
+          <p className="fnt-size" style={{marginTop: '-30px'}}>
+           <Skeleton/>
+           <Skeleton/>
+           <Skeleton/>
+           
           </p>
         </p>
         <div className="img_verdoccrepass">
-          <img src={vercre} alt="" style={{ marginRight: "5px" }} />
-          <img src={docpass} alt="" />
+            <Skeleton/>
         </div>
-        <h3>Usage</h3>
+        <h3>
+        <SkeletonTheme baseColor="#D3D3D3" highlightColor="#f5f5f5">
+            <Skeleton width={150}/>
+        </SkeletonTheme>
+      </h3>
+        
         <div className="isikonten">
           <p>
-            First, add this to your{" "}
-            <span className="cargo_html">Cargo.toml</span>:{" "}
+            <Skeleton/>
           </p>
         </div>
         <div className="isikontenke2">
           <p>
-            <span className="bold-text">[dependencies]</span>
+            <span className="bold-text"><Skeleton width={100}/></span>
             <br />
-            <span>openssl-probe = "0.1.2"</span>
+            <span><Skeleton width={200}/></span>
           </p>
         </div>
 
         <div className="isikonten">
-          <p>Then add this to your crate: </p>
+          <p><Skeleton width={300}/></p>
         </div>
         <div className="isikontenke3">
           <p>
-            <span style={{ color: "red" }}>extern crate</span> openssl_probe;
+          <Skeleton width={200}/>
           </p>
           <code className="cd">
-            {`fn main() {`}
-            <br />
-             {`openssl_probe::init_ssl_cert_env_vars();`}
-            <br />
-            {`//... your code`}
-            <br />
-              {`}`}
+          <Skeleton width={100}/>
+          <Skeleton width={400}/>
+          <Skeleton width={50}/>
+          
           </code>
         </div>
 
-        <div className="konten4">
-          <h3>License</h3>
+        <div className="konten4" style={{marginTop: '10px'}}>
+        <SkeletonTheme baseColor="#D3D3D3" highlightColor="#f5f5f5">
+            <Skeleton width={200}/>
+        </SkeletonTheme>
           <p>
-            <span className="cargo_html">openssl-probe</span> is primarily
-            distributed under the terms of both the MIT license and the Apache
-            License (Version 2.0), with portions covered by various BSD-like
-            licenses.
+          <Skeleton/>
+          <Skeleton/>
+          <Skeleton/>
           </p>
         </div>
         <div className="kontenterakhri">
           <p>
-            See <span style={{ color: "#00AC5B" }}>LICENSE-APACHE</span>, and
-            <span style={{ color: "#00AC5B" }}>LICENSE-MIT</span> for details.
+          <Skeleton/>
           </p>
         </div>
-      </div>
+      </div> 
 
       <div className="bagian2">
         <div className="kontenone">
@@ -176,7 +184,7 @@ const Konten = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Konten;
+export default SkeletonLoad
